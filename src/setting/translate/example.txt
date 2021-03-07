@@ -1,0 +1,41 @@
+
+
+    {
+      "name": "好逸恶劳的小猴子",
+      "path": "好逸恶劳的小猴子.mp3",
+      "translate": {
+        "zh-CN": "好逸恶劳的小猴子"
+      },
+      "category": "《1》"
+    },
+
+表情
+
+    {
+      "name": "谁把你变成这样的",
+      "path": "谁把你变成这样的.mp3",
+      "translate": {
+        "zh-CN": "谁把你变成这样的"
+      },
+      "usePicture": {
+        "zh-CN": "谁把你变成这样的.jpg"
+      },
+      "category": "《1》"
+    },
+
+日期 来源
+
+    {
+      "name": "天空再肮脏也比人的心要干净",
+      "path": "天空再肮脏也比人的心要干净.mp3",
+      "date": "2020-10-27",
+      "translate": {
+        "zh-CN": "天空再肮脏也比人的心要干净"
+      },
+      "category": "《1》",
+      "mark": {
+        "title": "“pi,mc,卷土重来的黄金城p1~17",
+        "time": "P2 43：00",
+        "url": "https://www.bilibili.com/video/BV1iz4y1y78x"
+      }
+    },

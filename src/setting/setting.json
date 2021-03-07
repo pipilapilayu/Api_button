@@ -1,0 +1,46 @@
+{
+  "name": {
+    "CN": {
+      "title": "Api按钮",
+      "memes": "Api表情",
+      "fullName": "少年Pi"
+    },
+    "JP": {
+      "title": "",
+      "memes": "",
+      "fullName": ""
+    }
+  },
+  "header": {
+    "icon": "🍍",
+    "youtube": "https://weibo.com/apiww",
+    "twitter": "",
+    "bilibili": "https://space.bilibili.com/13046"
+  },
+  "footer": {
+    "author": [
+      {
+        "name": "Blacktunes",
+        "url": "https://github.com/blacktunes"
+      },
+      {
+        "name": "DYS"
+      }
+    ],
+    "info": [
+      "对于本网站有什么建议欢迎加入反馈群:<a href=\"https://jq.qq.com/?_wv=1027&k=DxgZ3kwk\">483278049</a>",
+      "语音素材持续募集中！     背景图PID=71517168 绘：Tania"
+    ],
+    "githubUrl": "https://github.com/blacktunes/kaguranana-button"
+  },
+  "console": {
+    "text": "❤Api❤",
+    "size": "20px",
+    "color": "pink",
+    "img": "Api.jpg",
+    "imgWidth": "10%",
+    "imgHeight": "10%"
+  },
+  "mediaSession": "api.jpg",
+  "GA_ID": ""
+}

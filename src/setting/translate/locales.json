@@ -1,0 +1,42 @@
+{
+  "zh-CN": {
+    "info": {
+      "toGithub": "本站基于kaguranana-button修改而成",
+      "notOfficial": "本站为爱好者作品，与up主没有关联"
+    },
+    "action": {
+      "randomplay": "帮我选一个",
+      "stopvoice": "停止",
+      "overlap": "允许声音重叠",
+      "overlapTip": "重叠播放开启中~",
+      "autoRandom": "不要停下来啊——",
+      "autoRandomTip": "随机连播开启中~",
+      "loop": "洗脑循环",
+      "loopTip": "洗脑循环开启中~",
+      "noplay": "当前没有播放哦~"
+    },
+    "vtbbtn": "加入我们",
+    "voiceTotalTip": "当前语音量",
+    "lang": "音频投稿"
+  },
+  "ja-JP": {
+    "info": {
+      "toGithub": "",
+      "notOfficial": ""
+    },
+    "action": {
+      "randomplay": "",
+      "stopvoice": "",
+      "overlap": "",
+      "overlapTip": "",
+      "autoRandom": "",
+      "autoRandomTip": "",
+      "loop": "",
+      "loopTip": "",
+      "noplay": ""
+    },
+    "vtbbtn": "",
+    "voiceTotalTip": "",
+    "lang": ""
+  }
+}
