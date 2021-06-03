@@ -69,5 +69,4 @@ const i18n = createI18n({
     'ja-JP': JP
   }
 })
-
 createApp(App).use(router).use(i18n).use(lazyload).mount('#app')

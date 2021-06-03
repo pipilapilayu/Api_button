@@ -6,7 +6,6 @@
     <VFooter />
   </div>
 </template>
-
 <script lang="ts">
 import { provide, reactive, ref, watch, Ref } from 'vue'
 import { useRoute } from 'vue-router'

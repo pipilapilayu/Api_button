@@ -23,7 +23,6 @@
     </Card>
   </template>
 </template>
-
 <script lang="ts">
 import { ref, inject, watch, Ref, ComponentPublicInstance, reactive } from 'vue'
 import { useI18n } from 'vue-i18n'
@@ -118,7 +117,7 @@ export default {
       // GA的事件上报
       if (process.env.NODE_ENV === 'production') {
         /* eslint-disable @typescript-eslint/camelcase */
-        gtag('event', '播放语音', {
+        gtag('event', voice.name, {
           event_category: voice.name,
           event_label: voice.category,
           value: 1

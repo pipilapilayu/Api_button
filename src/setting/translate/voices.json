@@ -1005,7 +1005,7 @@
 {
   "name": "pi皇后",
   "path": "pi皇后.mp3",
-  "date": "2021-1-27",
+  "date": "2021-6-4",
   "translate": {
     "zh-CN": "pi皇后"
   },
@@ -1019,7 +1019,7 @@
 {
   "name": "pi嬷嬷",
   "path": "pi嬷嬷.mp3",
-  "date": "2021-1-27",
+  "date": "2021-6-4",
   "translate": {
     "zh-CN": "pi嬷嬷"
   },
@@ -1033,7 +1033,7 @@
 {
   "name": "钉宫三连",
   "path": "钉宫三连.mp3",
-  "date": "2021-1-27",
+  "date": "2021-6-4",
   "translate": {
     "zh-CN": "钉宫三连"
   },
@@ -1042,6 +1042,104 @@
     "title": "【1.9 鬼泣5 MC 怪物猎人】",
     "time": "p9 15:27",
     "url": "https://www.bilibili.com/video/BV1gT4y1K7EE?p=9"
+  }
+},
+{
+  "name": "哇哦",
+  "path": "哇哦.mp3",
+  "date": "2021-6-4",
+  "translate": {
+    "zh-CN": "哇哦"
+  },
+  "category": "语气",
+  "mark": {
+    "title": "【回乡种地星露谷P1~62】",
+    "time": "p26 30:28",
+    "url": "https://www.bilibili.com/video/BV1ub41167mR?p=26"
+  }
+},
+{
+  "name": "你们的生命就此结束了",
+  "path": "你们的生命就此结束了.mp3",
+  "date": "2021-6-4",
+  "translate": {
+    "zh-CN": "你们的生命就此结束了"
+  },
+  "category": "《1》",
+  "mark": {
+    "title": "【pi,mc,神鸟圣人行商记p2~4】",
+    "time": "p3 44:28",
+    "url": "https://www.bilibili.com/video/BV11b41147X9?p=3"
+  }
+},
+{
+  "name": "素质三连",
+  "path": "素质三连.mp3",
+  "date": "2021-6-4",
+  "translate": {
+    "zh-CN": "素质三连"
+  },
+  "category": "想被pi骂",
+  "mark": {
+    "title": "【[少年Pi直播切片]之儒雅随和API】",
+    "time": "1:45",
+    "url": "https://www.bilibili.com/video/BV1uy4y1W7RP"
+  }
+},
+{
+  "name": "骚气祝福",
+  "path": "骚气祝福.mp3",
+  "date": "2021-6-4",
+  "translate": {
+    "zh-CN": "骚气祝福"
+  },
+  "category": "名场面",
+  "mark": {
+    "title": "【[APi直播切片]魔 音 贯 耳】",
+    "time": "00:48",
+    "url": "https://www.bilibili.com/video/BV1vU4y1s7Qz"
+  }
+},
+{
+  "name": "霸气祝福",
+  "path": "霸气祝福.mp3",
+  "date": "2021-6-4",
+  "translate": {
+    "zh-CN": "霸气祝福"
+  },
+  "category": "名场面",
+  "mark": {
+    "title": "【[APi直播切片]魔 音 贯 耳】",
+    "time": "1:45",
+    "url": "https://www.bilibili.com/video/BV1vU4y1s7Qz"
+  }
+},
+{
+  "name": "你这个小笨蛋",
+  "path": "你这个小笨蛋.mp3",
+  "date": "2021-6-4",
+  "translate": {
+    "zh-CN": "你这个小笨蛋"
+  },
+  "category": "想被pi骂",
+  "mark": {
+    "title": "【[APi直播切片]魔 音 贯 耳】",
+    "time": "1:57",
+    "url": "https://www.bilibili.com/video/BV1vU4y1s7Qz"
+  }
+},
+{
+  "name": "sd",
+  "path": "sd.mp3",
+  "date": "2021-6-4",
+  "translate": {
+    "zh-CN": "sd"
+  },
+  "category": "想被pi骂",
+  "mark": {
+    "title": "【[APi直播切片]魔 音 贯 耳】",
+    "time": "2:10",
+    "url": "https://www.bilibili.com/video/BV1vU4y1s7Qz"
   }
 }
 
