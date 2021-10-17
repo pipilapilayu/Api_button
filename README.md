@@ -2,7 +2,7 @@
 
 ##### 项目地址: https://www.xxapi.icu/
 
-本项目基于https://github.com/blacktunes/kaguranana-button修改而成
+本项目基于https://github.com/blacktunes/kaguranana-button 修改而成
 
 ### 相关链接：
 
