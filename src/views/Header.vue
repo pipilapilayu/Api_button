@@ -127,7 +127,7 @@ export default {
         localStorage.setItem('lang', 'zh-CN')
       } else {
         window.open(
-          'https://forms.office.com/Pages/ResponsePage.aspx?id=ZUVmpocXSUS1bvY0WUodM4m4XCRCNZ5Olb4gCigSBhlUM1dLWURBUUxNS1ZNOEtRWVBRWlI2VklBOC4u&embed=true', 'newwindow', 'height=400, width=640, top=0,left=0, toolbar=no, menubar=no, scrollbars=no, resizable=no,location=no,status=no'
+          'http://www.xxapi.ys168.com/', 'newwindow', 'height=400, width=640, top=0,left=0, toolbar=no, menubar=no, scrollbars=no, resizable=no,location=no,status=no'
         )
       }
     }
