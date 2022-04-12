@@ -60,7 +60,7 @@ export default {
       },
       {
         name: '投稿入口',
-        url: 'https://forms.office.com/Pages/ResponsePage.aspx?id=ZUVmpocXSUS1bvY0WUodM4m4XCRCNZ5Olb4gCigSBhlUM1dLWURBUUxNS1ZNOEtRWVBRWlI2VklBOC4u&embed=true" frameborder= "0" marginwidth= "0" marginheight= "0" style= "border: none; max-width:100%; max-height:100vh',
+        url: 'https://github.com/DYS763/Api_button/issues/new?assignees=&labels=&template=----.md&title=%5B%E6%8A%95%E7%A8%BF%5D',
         background: '#f5c1bb'
       }
     ]
