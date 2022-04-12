@@ -60,7 +60,7 @@ export default {
       },
       {
         name: '投稿入口',
-        url: 'https://github.com/DYS763/Api_button/issues/new?assignees=&labels=&template=----.md&title=%5B%E6%8A%95%E7%A8%BF%5D",
+        url: 'https://github.com/DYS763/Api_button/issues/new?assignees=&labels=&template=----.md&title=%5B%E6%8A%95%E7%A8%BF%5D',
         background: '#f5c1bb'
       }
     ]
