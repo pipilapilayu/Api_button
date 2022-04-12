@@ -35,7 +35,7 @@
    })();
   </script>
      <!-- 评论系统初始化！ -->
-     <script src='//cdn.jsdelivr.net/npm/@waline/client/dist/Waline.min.js'></script>
+      <script src="//cdn.jsdelivr.net/npm/@waline/client"></script>
      <!--以下为测试内容-->
      <style>
 
@@ -252,17 +252,15 @@
    <div class="container-fluid" id="comments">
        <div class="row comment">
                <h2>在这里留言：（所有人可见）</h2><h6>下方可以填写你的id与邮箱（当然也可以不填）</h6>
-               <div id="waline"></div>
            </div>
        </div>
-   <script>
-     new Waline({
-       el: '#waline',
-       path: location.pathname,
-       serverURL: 'https://xxapi.vercel.app',
-     });
-   </script>
-
+     <div id="waline"></div>
+     <script>
+       Waline({
+         el: '#waline',
+         serverURL: 'https://xxapi.vercel.app',
+       });
+     </script>
    </body>
    <div style="width:300px;margin:0 auto; padding:20px 0;">
     <a target="_blank" href="http://beian.miit.gov.cn/" style="display:inline-block;text-decoration:none;height:20px;line-height:20px;"><img src="" style="float:left;"/><p style="float:left;height:20px;line-height:20px;margin: 0px 0px 0px 5px; color:#939393;"><img src=beian.png>黑ICP备2021000032号</p></a>
