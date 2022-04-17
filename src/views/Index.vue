@@ -59,9 +59,19 @@ export default {
         background: 'rgb(255, 174, 166)'
       },
       {
-        name: '投稿入口',
+        name: 'github投稿入口',
         url: 'https://github.com/DYS763/Api_button/issues/new?assignees=&labels=&template=----.md&title=%5B%E6%8A%95%E7%A8%BF%5D',
-        background: '#f5c1bb'
+        background: 'rgb(0, 0, 0)'
+      },
+      {
+        name: '腾讯表单投稿入口',
+        url: 'https://docs.qq.com/form/page/DT2hyc3lyWFNHaGpa',
+        background: 'rgb(30,111,255)'
+      },
+      {
+        name: '邮件投稿入口',
+        url: 'mailto:dys@xxapi.icu',
+        background: 'rgb(1,0,40)'
       }
     ]
 
