@@ -1,12 +1,35 @@
 import { createRouter, createWebHistory, RouteRecordRaw } from 'vue-router'
 import Index from '@/views/Index.vue'
 
+import Home from '../views/Home'
+import About from '../views/About'
+import Dynamic from '../views/Dynamic'
+import Timeline from '../views/Timeline'
+
 const routes: Array<RouteRecordRaw> = [
   {
     path: '/',
     name: 'Index',
     component: Index
-  },
+  },{
+        name: 'home',
+        path: '/home',
+        component: Home
+    }, {
+        name: 'dynamic',
+        path: '/dynamic',
+        component: Dynamic
+    },
+    {
+        name: 'about',
+        path: '/about',
+        component: About
+    },
+    {
+        name:'timeline',
+        path:'/timeline',
+        component: Timeline
+    },
   {
     path: '/editor',
     component: () => import('../views/VoiceEditor.vue')
