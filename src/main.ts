@@ -12,7 +12,8 @@ import './registerServiceWorker'
 
 import { gtag } from './assets/script/gtag.js'
 import Setting from './setting/setting.json'
-
+import ElementPlus from 'element-plus'
+import 'element-plus/dist/index.css'
 if (process.env.NODE_ENV === 'production' && (Setting as any).GA_ID) {
   window.dataLayer = window.dataLayer || []
   gtag('js', new Date())
@@ -70,4 +71,4 @@ const i18n = createI18n({
     'ja-JP': JP
   }
 })
-createApp(App).use(router).use(i18n).use(lazyload).mount('#app')
+createApp(App).use(router).use(i18n).use(lazyload).use(ElementPlus).mount('#app')

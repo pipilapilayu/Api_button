@@ -75,8 +75,7 @@ module.exports = {
       performance: {
         hints: false
       },
-      // process.env.NODE_ENV === 'production' ? [] :
-      plugins: [
+      plugins: process.env.NODE_ENV === 'production' ? [] : [
         new BundleAnalyzerPlugin({
           generateStatsFile: false
         }),
