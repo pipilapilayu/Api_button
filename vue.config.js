@@ -1,7 +1,9 @@
 /* eslint-disable @typescript-eslint/no-var-requires */
 /* eslint-disable @typescript-eslint/camelcase */
 const path = require('path')
-
+const AutoImport = require('unplugin-auto-import/webpack')
+const Components = require('unplugin-vue-components/webpack')
+const { ElementPlusResolver } = require('unplugin-vue-components/resolvers')
 const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPlugin
 const SimpleProgressWebpackPlugin = require('simple-progress-webpack-plugin')
 
@@ -77,7 +79,13 @@ module.exports = {
         new BundleAnalyzerPlugin({
           generateStatsFile: false
         }),
-        new SimpleProgressWebpackPlugin()
+        new SimpleProgressWebpackPlugin(),
+        AutoImport({
+          resolvers: [ElementPlusResolver()]
+        }),
+        Components({
+          resolvers: [ElementPlusResolver()]
+        })
       ],
       optimization: {
         splitChunks: {

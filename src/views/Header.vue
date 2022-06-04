@@ -55,7 +55,8 @@ export default {
     IBtn,
     Search
   },
-  setup() {
+  emits: ['setAsideShow'],
+  setup(props, { emit }) {
     const searchData: SearchData = inject('searchData') as SearchData
 
     let btnList: { url: string | false; img: string }[] = []
@@ -79,6 +80,9 @@ export default {
     const logo: Ref<HTMLElement> = ref() as Ref<HTMLElement>
     let isRestart = false
     const logoClick = () => {
+      console.log('logo')
+
+      setAsideShow()
       if (!logo.value) return
       if (isRestart) {
         logo.value.style.animation = 'logo 1s'
@@ -88,7 +92,15 @@ export default {
         isRestart = !isRestart
       }
     }
+    const asideShow = ref(false)
+    const setAsideShow = () => {
+      asideShow.value = !asideShow.value
+      // defineEmits('setAsideShow', asideShow.value)
+      emit('setAsideShow', asideShow.value)
+      console.log(asideShow.value)
 
+      // window.localStorage.setItem('asideShow', JSON.stringify(asideShow.value))
+    }
     const isShowSearch: Ref<IsShowSearch> = inject('isShowSearch') as Ref<IsShowSearch>
 
     const route = useRoute()
