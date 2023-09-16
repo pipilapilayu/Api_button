@@ -1,7 +1,7 @@
 import { createRouter, createWebHistory, RouteRecordRaw } from 'vue-router'
 import Index from '@/views/Index.vue'
 
-const routes: Array<RouteRecordRaw> = [
+const routes: RouteRecordRaw[] = [
   {
     path: '/',
     name: 'Index',
@@ -15,6 +15,18 @@ const routes: Array<RouteRecordRaw> = [
     path: '/memes',
     component: () => import('../views/Memes.vue')
   },
+  {
+    path: '/timeline',
+    component: () => import('../views/TimeLine.vue')
+  },
+  // {
+  //   path: 'menu',
+  //   children: [{
+  //     path: 'home',
+  //     name: '主页',
+  //     component: () => import('@/views/TimeLine.vue')
+  //   }]
+  // },
   {
     path: '/:catchAll(.*)',
     redirect: '/'
