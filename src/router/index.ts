@@ -7,18 +7,6 @@ const routes: RouteRecordRaw[] = [
     name: 'Index',
     component: Index
   },
-  {
-    path: '/editor',
-    component: () => import('../views/VoiceEditor.vue')
-  },
-  {
-    path: '/memes',
-    component: () => import('../views/Memes.vue')
-  },
-  {
-    path: '/timeline',
-    component: () => import('../views/TimeLine.vue')
-  },
   // {
   //   path: 'menu',
   //   children: [{

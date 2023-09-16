@@ -116,7 +116,6 @@ export default {
     const play = (voice: VoicesItem) => {
       // GA的事件上报
       if (process.env.NODE_ENV === 'production') {
-        /* eslint-disable @typescript-eslint/camelcase */
         gtag('event', voice.name, {
           event_category: voice.name,
           event_label: voice.category,
@@ -248,6 +247,7 @@ export default {
           if (voicesCategory.name === voice.category) {
             return voicesCategory.voiceList
           }
+          return []
         })!.voiceList
         const nextVoice = list[getLoopIndex(voice, list)]
         if (nextVoice) {
