@@ -50,7 +50,6 @@ for (const voice of VoiceList.voices) {
       if (item.name === voice.category) {
         return item
       }
-      return null
     })!
     if (voice.translate['zh-CN'] !== undefined && category.translate['zh-CN'] !== undefined) {
       CN.voice[voice.name] = voice.translate['zh-CN']

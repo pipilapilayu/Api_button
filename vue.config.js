@@ -1,17 +1,18 @@
 /* eslint-disable @typescript-eslint/no-var-requires */
+/* eslint-disable @typescript-eslint/camelcase */
 const path = require('path')
 const AutoImport = require('unplugin-auto-import/webpack')
 const Components = require('unplugin-vue-components/webpack')
 const { ElementPlusResolver } = require('unplugin-vue-components/resolvers')
 const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPlugin
 const SimpleProgressWebpackPlugin = require('simple-progress-webpack-plugin')
-const webpack = require("webpack")
 
 module.exports = {
   pwa: {
     themeColor: '#c4afd0',
     manifestOptions: {
       name: 'NANA BUTTON',
+      // eslint-disable-next-line @typescript-eslint/camelcase
       short_name: 'NANA BUTTON',
       icons: [
         {
@@ -59,7 +60,6 @@ module.exports = {
     }
   },
   productionSourceMap: false,
-  filenameHashing: false,
   css: {
     loaderOptions: {
       stylus: {
@@ -68,30 +68,25 @@ module.exports = {
     }
   },
   configureWebpack: (config) => {
-    // if (process.env.NODE_ENV === 'production') {
-    //   config.optimization.minimizer[0].options.terserOptions.compress.pure_funcs = ['console.info']
-    // }
+    if (process.env.NODE_ENV === 'production') {
+      config.optimization.minimizer[0].options.terserOptions.compress.pure_funcs = ['console.info']
+    }
     return {
       performance: {
         hints: false
       },
-      plugins: process.env.NODE_ENV === 'production'
-        ? [
-          new webpack.HotModuleReplacementPlugin()
-        ]
-        : [
-            new webpack.HotModuleReplacementPlugin(),
-            new BundleAnalyzerPlugin({
-              generateStatsFile: false
-            }),
-            new SimpleProgressWebpackPlugin(),
-            AutoImport({
-              resolvers: [ElementPlusResolver()]
-            }),
-            Components({
-              resolvers: [ElementPlusResolver()]
-            })
-          ],
+      plugins: process.env.NODE_ENV === 'production' ? [] : [
+        new BundleAnalyzerPlugin({
+          generateStatsFile: false
+        }),
+        new SimpleProgressWebpackPlugin(),
+        AutoImport({
+          resolvers: [ElementPlusResolver()]
+        }),
+        Components({
+          resolvers: [ElementPlusResolver()]
+        })
+      ],
       optimization: {
         splitChunks: {
           chunks: 'all',
@@ -109,9 +104,6 @@ module.exports = {
             }
           }
         }
-      },
-      output: {
-        hotUpdateChunkFilename: '[id].hot-update.js',
       }
     }
   }

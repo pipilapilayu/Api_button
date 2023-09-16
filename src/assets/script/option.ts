@@ -45,58 +45,6 @@ export enum ACTION_I18N {
   noplay = 'action.noplay'
 }
 
-export interface Mark {
-  /**
-   * 标题
-   */
-  title: string;
-  /**
-   * 时间段
-   */
-  time?: string;
-  url?: string;
-}
-
-export interface Translate {
-  'zh-CN'?: string;
-  'ja-JP'?: string;
-}
-
-/**
- * 语音对象
- */
-export interface VoicesItem {
-  /**
-   * 语音名称
-   */
-  name: string;
-  /**
-   * 文件名
-   */
-  path: string;
-  translate: Translate;
-  /**
-   * 是否显示表情包
-   */
-  usePicture?: Translate;
-  /**
-   * 所属分类
-   */
-  category: string;
-  /**
-   * 播放进度
-   */
-  progress?: number;
-  /**
-   * 添加日期
-   */
-  date?: string;
-  /**
-   * 来源信息
-   */
-  mark?: Mark;
-}
-
 /**
  * 播放设置
  */
@@ -154,6 +102,8 @@ export interface SearchData {
  */
 export type IsShowSearch = boolean
 
+export type Voices = VoicesCategory[]
+
 /**
  * 语音分类
  */
@@ -163,7 +113,62 @@ export interface VoicesCategory {
   voiceList: VoicesItem[];
 }
 
-export type Voices = VoicesCategory[]
+/**
+ * 语音对象
+ */
+export interface VoicesItem {
+  /**
+   * 语音名称
+   */
+  name: string;
+  /**
+   * 文件名
+   */
+  path: string;
+  translate: Translate;
+  /**
+   * 是否显示表情包
+   */
+  usePicture?: Translate;
+  /**
+   * 所属分类
+   */
+  category: string;
+  /**
+   * 播放进度
+   */
+  progress?: number;
+  /**
+   * 添加日期
+   */
+  date?: string;
+  /**
+   * 来源信息
+   */
+  mark?: Mark;
+}
+
+export interface Mark {
+  /**
+   * 标题
+   */
+  title: string;
+  /**
+   * 时间段
+   */
+  time?: string;
+  url?: string;
+};
+
+export interface Translate {
+  'zh-CN'?: string;
+  'ja-JP'?: string;
+}
+
+/**
+ * 播放器列表
+ */
+export type PlayerList = Map<any, Player>
 
 /**
  * 播放器对象
@@ -173,11 +178,6 @@ export interface Player {
   audio: HTMLAudioElement;
   voicesKey?: [string, string];
 }
-
-/**
- * 播放器列表
- */
-export type PlayerList = Map<any, Player>
 
 export interface MemeItem {
   name: string;
