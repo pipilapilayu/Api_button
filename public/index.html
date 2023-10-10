@@ -3,8 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0"> -
 
      <!-- 下方为网页描述（后接入） -->
      <meta name="description" content="Api-Button; 少年pi-button; 少年pi的语音按钮">
@@ -35,8 +34,9 @@
    })();
   </script>
      <!-- 评论系统初始化！ -->
-      <script src="//cdn.jsdelivr.net/npm/@waline/client"></script>
-     <!--以下为测试内容-->
+      <script src='//unpkg.com/@waline/client@v2/dist/waline.js'></script>
+      <link href='//unpkg.com/@waline/client@v2/dist/waline.css' rel='stylesheet' />
+      <!--以下为测试内容-->
      <style>
 
      </style >
@@ -256,16 +256,12 @@
        </div>
      <div id="waline"></div>
      <script>
-       Waline({
-         el: '#waline',
-         serverURL: 'https://xxapi.vercel.app',
-       });
+         Waline.init({
+             el: '#waline',
+             serverURL: 'https://xxapi.vercel.app'
+         });
      </script>
    </body>
-   <div style="width:300px;margin:0 auto; padding:20px 0;">
-    <a target="_blank" href="http://beian.miit.gov.cn/" style="display:inline-block;text-decoration:none;height:20px;line-height:20px;"><img src="" style="float:left;"/><p style="float:left;height:20px;line-height:20px;margin: 0px 0px 0px 5px; color:#939393;"><img src=beian.png>黑ICP备2021000032号</p></a>
-    <a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=23100202000054" style="display:inline-block;text-decoration:none;height:20px;line-height:20px;"><img src="" style="float:left;"/><p style="float:left;height:20px;line-height:20px;margin: 0px 0px 0px 5px; color:#939393;"><img src=beian.png>黑公网安备 23100202000054号</p></a>
-  </div>
    <style lang="scss">
 
      </style>
