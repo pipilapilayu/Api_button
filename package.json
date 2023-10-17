@@ -1,8 +1,8 @@
 {
-  "name": "nanakagura-button",
+  "name": "api-button",
   "version": "1.0.0",
   "private": true,
-  "author": "Blacktunes",
+  "author": "Blacktunes&dys",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
