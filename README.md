@@ -9,7 +9,7 @@
 
 ### 参与完善本项目
 
-- 您可以在[Issues](https://github.com/DYS763/Api_button/issues)提出您的建议。
+- 您可以在[Issues](https://github.com/pipilapilayu/Api_button/issues)提出您的建议。
   - 若是请求添加新语音，请使用指定的**issues模板**
 
 - 如果您可以进行开发，那么请**Fork**本项目进行修改，完成修改后在本项目中发起一个**Pull Request**，详细说明请查看以下条目
