@@ -21,7 +21,7 @@ export default {
   setup() {
     const getUrl = (path: string) => {
       return process.env.NODE_ENV === 'production'
-        ? `https://fastly.jsdelivr.net/gh/pipilapilayu/Api_button@main/public/memes/${path}`
+        ? `https://jsd.onmicrosoft.cn/gh/pipilapilayu/Api_button@main/public/memes/${path}`
         : `/memes/${path}`
     }
 
