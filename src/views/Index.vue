@@ -53,12 +53,11 @@ export default {
     const lastDate = inject('lastDate', '')
 
     const friendlyLinkList: FriendlyLink[] = [
-/*      旧版已成为时代的眼泪
-      {
-        name: '旧版入口',
-        url: 'http://xxapi.icu:1844',
-        background: 'rgb(255, 174, 166)'
-      },*/
+      //{
+      //  name: '旧版入口',
+      //  url: 'http://xxapi.icu:1844',
+      //  background: 'rgb(255, 174, 166)'
+      //},
       {
         name: 'github投稿入口',
         url: 'https://github.com/pipilapilayu/Api_button/issues/new?assignees=&labels=&template=----.md&title=%5B%E6%8A%95%E7%A8%BF%5D',
