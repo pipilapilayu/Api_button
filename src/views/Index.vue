@@ -72,6 +72,11 @@ export default {
         name: '邮件投稿入口',
         url: 'mailto:dys@xxapi.icu',
         background: 'rgb(1,0,40)'
+      },
+      {
+        name: '小肉包按钮',
+        url: 'https://www.xrb.icu',
+        background: 'rgb(255,217,6)'
       }
     ]
 
