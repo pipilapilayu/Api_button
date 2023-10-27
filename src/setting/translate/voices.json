@@ -45,6 +45,13 @@
         "zh-CN": "联动（其他up）",
         "ja-JP": "联动"
       }
+    },
+    {
+      "name": "偷偷磕",
+      "translate": {
+        "zh-CN": "偷偷磕",
+        "ja-JP": "偷偷磕"
+      }
     }
   ],
   "voices": [
@@ -275,857 +282,863 @@
       "name": "哒 哒哒 哒哒哒",
       "path": "哒 哒哒 哒哒哒.mp3",
       "translate": {
-          "zh-CN": "哒 哒哒 哒哒哒"          
+        "zh-CN": "哒 哒哒 哒哒哒"
       },
       "category": "名场面"
-  },
-  {
-    "name": "谁不知道我是快枪手啊",
-    "path": "谁不知道我是快枪手啊.mp3",
-    "date": "2020-10-17",
-    "translate": {
-      "zh-CN": "谁不知道我是快枪手啊"
     },
-    "category": "名场面",
-    "mark": {
-      "title": "pi小绝包包奶茶的手模拟器",
-      "time": "20:54",
-      "url": "https://www.bilibili.com/video/BV197411V7Hw"
-    }
-  },
-  {
+    {
+      "name": "谁不知道我是快枪手啊",
+      "path": "谁不知道我是快枪手啊.mp3",
+      "date": "2020-10-17",
+      "translate": {
+        "zh-CN": "谁不知道我是快枪手啊"
+      },
+      "category": "名场面",
+      "mark": {
+        "title": "pi小绝包包奶茶的手模拟器",
+        "time": "20:54",
+        "url": "https://www.bilibili.com/video/BV197411V7Hw"
+      }
+    },
+    {
       "name": "damedane",
       "path": "damedane.mp3",
       "translate": {
-          "zh-CN": "damedane"
+        "zh-CN": "damedane"
       },
       "category": "名场面"
-  },
-  {
+    },
+    {
       "name": "天线宝宝",
       "path": "天线宝宝.mp3",
       "translate": {
-          "zh-CN": "天线宝宝"
+        "zh-CN": "天线宝宝"
       },
       "category": "名场面"
-  },
-  {
+    },
+    {
       "name": "该说再见了（困）",
       "path": "该说再见了（困）.mp3",
       "translate": {
-          "zh-CN": "该说再见了（困）"
+        "zh-CN": "该说再见了（困）"
       },
       "category": "名场面"
-  },
-  {
-    "name": "漏气pi",
-    "path": "漏气pi.mp3",
-    "translate": {
-        "zh-CN": "漏气pi"        
     },
-    "category": "名场面"
-},
-{
-    "name": "pi宝爬",
-    "path": "pi宝爬.mp3",
-    "translate": {
-        "zh-CN": "pi宝爬"       
+    {
+      "name": "漏气pi",
+      "path": "漏气pi.mp3",
+      "translate": {
+        "zh-CN": "漏气pi"
+      },
+      "category": "名场面"
     },
-    "category": "名场面"
-},
-{
-    "name": "深夜电台（长）",
-    "path": "深夜电台（长）.mp3",
-    "translate": {
-        "zh-CN": "深夜电台（长）"       
+    {
+      "name": "pi宝爬",
+      "path": "pi宝爬.mp3",
+      "translate": {
+        "zh-CN": "pi宝爬"
+      },
+      "category": "名场面"
     },
-    "category": "名场面"
-},
-{
-    "name": "你真当你是来睡觉的啊",
-    "path": "你真当你是来睡觉的啊.mp3",
-    "translate": {
-        "zh-CN": "你真当你是来睡觉的啊"        
+    {
+      "name": "深夜电台（长）",
+      "path": "深夜电台（长）.mp3",
+      "translate": {
+        "zh-CN": "深夜电台（长）"
+      },
+      "category": "名场面"
     },
-    "category": "名场面"
-},
-{
-    "name": "如果总要有个人当狗那么为什么不能是我呢",
-    "path": "如果总要有个人当狗那么为什么不能是我呢.mp3",
-    "translate": {
-        "zh-CN": "如果总要有个人当狗那么为什么不能是我呢"       
+    {
+      "name": "你真当你是来睡觉的啊",
+      "path": "你真当你是来睡觉的啊.mp3",
+      "translate": {
+        "zh-CN": "你真当你是来睡觉的啊"
+      },
+      "category": "名场面"
     },
-    "category": "名场面"
-},
-{
-    "name": "API按钮炸了，没有一片雪花是无辜的",
-    "path": "API按钮炸了，没有一片雪花是无辜的.mp3",
-    "translate": {
-        "zh-CN": "API按钮炸了，没有一片雪花是无辜的"       
+    {
+      "name": "如果总要有个人当狗那么为什么不能是我呢",
+      "path": "如果总要有个人当狗那么为什么不能是我呢.mp3",
+      "translate": {
+        "zh-CN": "如果总要有个人当狗那么为什么不能是我呢"
+      },
+      "category": "名场面"
     },
-    "category": "名场面"
-},
-{
-    "name": "女仆店绝学",
-    "path": "女仆店绝学.mp3",
-    "translate": {
-        "zh-CN": "女仆店绝学"       
+    {
+      "name": "API按钮炸了，没有一片雪花是无辜的",
+      "path": "API按钮炸了，没有一片雪花是无辜的.mp3",
+      "translate": {
+        "zh-CN": "API按钮炸了，没有一片雪花是无辜的"
+      },
+      "category": "名场面"
     },
-    "category": "名场面"
-},
-{
-    "name": "心诚则灵",
-    "path": "心诚则灵.mp3",
-    "translate": {
-        "zh-CN": "心诚则灵"        
+    {
+      "name": "女仆店绝学",
+      "path": "女仆店绝学.mp3",
+      "translate": {
+        "zh-CN": "女仆店绝学"
+      },
+      "category": "名场面"
     },
-    "category": "名场面"
-},
-{
-    "name": "心诚则灵2",
-    "path": "心诚则灵2.mp3",
-    "translate": {
-        "zh-CN": "心诚则灵2"        
+    {
+      "name": "心诚则灵",
+      "path": "心诚则灵.mp3",
+      "translate": {
+        "zh-CN": "心诚则灵"
+      },
+      "category": "名场面"
     },
-    "category": "名场面"
-},
-{
-    "name": "快跑快跑哈哈哈哈",
-    "path": "快跑快跑哈哈哈哈.mp3",
-    "translate": {
-        "zh-CN": "快跑快跑哈哈哈哈"       
+    {
+      "name": "心诚则灵2",
+      "path": "心诚则灵2.mp3",
+      "translate": {
+        "zh-CN": "心诚则灵2"
+      },
+      "category": "名场面"
     },
-    "category": "名场面"
-},
-{
-    "name": "啊 我摔倒啦",
-    "path": "啊 我摔倒啦.mp3",
-    "translate": {
-        "zh-CN": "啊 我摔倒啦"        
+    {
+      "name": "快跑快跑哈哈哈哈",
+      "path": "快跑快跑哈哈哈哈.mp3",
+      "translate": {
+        "zh-CN": "快跑快跑哈哈哈哈"
+      },
+      "category": "名场面"
     },
-    "category": "名场面"
-},
-{
-    "name": "oh,I‘m scary",
-    "path": "oh,I‘m scary.mp3",
-    "translate": {
-        "zh-CN": "oh,I‘m scary"       
+    {
+      "name": "啊 我摔倒啦",
+      "path": "啊 我摔倒啦.mp3",
+      "translate": {
+        "zh-CN": "啊 我摔倒啦"
+      },
+      "category": "名场面"
     },
-    "category": "名场面"
-},
-{
-    "name": "我们被包围了！奶烤鱼！",
-    "path": "我们被包围了！奶....烤鱼！.mp3",
-    "translate": {
-        "zh-CN": "我们被包围了！奶....烤鱼！"       
+    {
+      "name": "oh,I‘m scary",
+      "path": "oh,I‘m scary.mp3",
+      "translate": {
+        "zh-CN": "oh,I‘m scary"
+      },
+      "category": "名场面"
     },
-    "category": "名场面"
-},
-{
-  "name": "反派笑声1",
-  "path": "反派笑声.mp3",
-  "translate": {
-      "zh-CN": "反派笑声1"     
-  },
-  "category": "语气"
-},
-{
-  "name": "反派笑声2",
-  "path": "反派笑声2.mp3",
-  "translate": {
-      "zh-CN": "反派笑声2"      
-  },
-  "category": "语气"
-},
-{
-  "name": "woc（颤音）",
-  "path": "woc（颤音）.mp3",
-  "translate": {
-      "zh-CN": "woc（颤音）"      
-  },
-  "category": "语气"
-},
-{
-  "name": "yeah!",
-  "path": "yeah!.mp3",
-  "translate": {
-      "zh-CN": "yeah!"      
-  },
-  "category": "语气"
-},
-{
-  "name": "欸？（惊喜）",
-  "path": "欸？（惊喜）.mp3",
-  "translate": {
-      "zh-CN": "欸？（惊喜）"      
-  },
-  "category": "语气"
-},
-{
-  "name": "不要啊——",
-  "path": "不要啊——.mp3",
-  "translate": {
-      "zh-CN": "不要啊——"      
-  },
-  "category": "语气"
-},
-{
-  "name": "惊吓",
-  "path": "惊吓.mp3",
-  "translate": {
-      "zh-CN": "惊吓"     
-  },
-  "category": "语气"
-},
-{
-  "name": "缺德笑",
-  "path": "缺德笑.mp3",
-  "translate": {
-      "zh-CN": "缺德笑"      
-  },
-  "category": "语气"
-},
-{
-  "name": "五连笑",
-  "path": "五连笑.mp3",
-  "translate": {
-      "zh-CN": "五连笑"      
-  },
-  "category": "语气"
-},
-{
-  "name": "吃惊",
-  "path": "吃惊.wav",
-  "translate": {
-      "zh-CN": "吃惊"     
-  },
-  "category": "语气"
-},
-{
-  "name": "诶呦？",
-  "path": "诶呦？.wav",
-  "translate": {
-      "zh-CN": "诶呦？"      
-  },
-  "category": "语气"
-},
-{
-  "name": "嘿嘿嘿嘿嘿",
-  "path": "嘿嘿嘿嘿嘿.wav",
-  "translate": {
-      "zh-CN": "嘿嘿嘿嘿嘿"      
-  },
-  "category": "语气"
-},
-{
-  "name": "惊叹",
-  "path": "惊叹.wav",
-  "translate": {
-      "zh-CN": "惊叹"     
-  },
-  "category": "语气"
-},
-{
-  "name": "狂笑",
-  "path": "狂笑.mp3",
-  "translate": {
-      "zh-CN": "狂笑"     
-  },
-  "category": "语气"
-},
-{
-  "name": "喔↗!",
-  "path": "喔↗!.wav",
-  "translate": {
-      "zh-CN": "喔↗!"     
-  },
-  "category": "语气"
-},
-{
-  "name": "我日↗",
-  "path": "我日↗.wav",
-  "translate": {
-      "zh-CN": "我日↗"      
-  },
-  "category": "语气"
-},
-{
-  "name": "猫叫",
-  "path": "猫叫.mp3",
-  "translate": {
-      "zh-CN": "猫叫"    
-  },
-  "category": "语气"
-},
-{
-  "name": "打哈欠",
-  "path": "打哈欠.mp3",
-  "translate": {
-      "zh-CN": "打哈欠"     
-  },
-  "category": "语气"
-},
-{
-  "name": "daze⭐",
-  "path": "daze⭐.mp3",
-  "translate": {
-      "zh-CN": "daze⭐"
-  },
-  "category": "语气"
-},
-{
-  "name": "反派笑声3",
-  "path": "反派笑声3.mp3",
-  "translate": {
-      "zh-CN": "反派笑声3"      
-  },
-  "category": "语气"
-},
-{
-  "name": "傻笑",
-  "path": "傻笑.mp3",
-  "translate": {
-      "zh-CN": "傻笑"      
-  },
-  "category": "语气"
-},
-{
-  "name": "このやろう(野郎)",
-  "path": "このやろう(野郎).mp3",
-  "translate": {
-      "zh-CN": "このやろう(野郎)"     
-  },
-  "category": "语气"
-},
-{
-  "name": "格林爆裂",
-  "path": "格林爆裂.mp3",
-  "translate": {
-      "zh-CN": "格林爆裂"      
-  },
-  "category": "cv pi"
-},
-{
-  "name": "太虚苍蓝闪",
-  "path": "太虚苍蓝闪.mp3",
-  "translate": {
-      "zh-CN": "太虚苍蓝闪"      
-  },
-  "category": "cv pi"
-},
-{
-  "name": "Api应援",
-  "path": "干巴得.mp3",
-  "translate": {
-      "zh-CN": "Api应援"     
-  },
-  "category": "cv pi"
-},
-{
-  "name": "闪耀之刃",
-  "path": "闪耀之刃.mp3",
-  "translate": {
-      "zh-CN": "闪耀之刃"
-  },
-  "category": "cv pi"
-},               
-{
-  "name": "阿库耐次",
-  "path": "阿库耐次.mp3",
-  "translate": {
-      "zh-CN": "阿库耐次"      
-  },
-  "category": "cv pi"
-},                     
-{
-  "name": "阿库奈次2",
-  "path": "阿库奈次2.mp3",
-  "translate": {
-      "zh-CN": "阿库奈次2"     
-  },
-  "category": "cv pi"
-}, 
-{
-  "name": "你的好友API已上线",
-  "path": "你的好友API已上线.mp3",
-  "translate": {
-      "zh-CN": "你的好友API已上线"      
-  },
-  "category": "cv pi"
-},
-{
-  "name": "朱色之噬 吾可是不死之身",
-  "path": "朱色之噬 吾可是不死之身.mp3",
-  "translate": {
-      "zh-CN": "朱色之噬 吾可是不死之身"      
-  },
-  "category": "cv pi"
-},
-{
-  "name": "疾风剑雨",
-  "path": "疾风剑雨.mp3",
-  "translate": {
-      "zh-CN": "疾风剑雨"      
-  },
-  "category": "cv pi"
-}, 
-{
-  "name": "附魔箭矢",
-  "path": "附魔箭矢.mp3",
-  "translate": {
-      "zh-CN": "附魔箭矢"      
-  },
-  "category": "cv pi"
-},
-{
-  "name": "bang!哈哈哈哈哈哈",
-  "path": "bang!哈哈哈哈哈哈.mp3",
-  "translate": {
-      "zh-CN": "bang!哈哈哈哈哈哈"      
-  },
-  "category": "cv pi"
-},
-{
-  "name": "ex咖喱棒",
-  "path": "ex咖喱棒.mp3",
-  "translate": {
-      "zh-CN": "ex咖喱棒"      
-  },
-  "category": "cv pi"
-},
-{
-  "name": "穿刺死棘之枪",
-  "path": "穿刺死棘之枪.mp3",
-  "translate": {
-      "zh-CN": "穿刺死棘之枪"      
-  },
-  "category": "cv pi"
-},
-{
-  "name": "雕虫小技竟敢班门弄斧",
-  "path": "雕虫小技竟敢班门弄斧.mp3",
-  "translate": {
-      "zh-CN": "雕虫小技竟敢班门弄斧"      
-  },
-  "category": "cv pi"
-},
-{
-  "name": "哭吧，叫吧，喊吧，然后去死吧",
-  "path": "哭吧，叫吧，喊吧，然后去死吧.mp3",
-  "translate": {
-      "zh-CN": "哭吧，叫吧，喊吧，然后去死吧"     
-  },
-  "category": "cv pi"
-},
-{
-  "name": "梦想天生",
-  "path": "梦想天生.mp3",
-  "translate": {
-      "zh-CN": "梦想天生"      
-  },
-  "category": "cv pi"
-},
-{
-  "name": "眼镜蛇跑法",
-  "path": "眼镜蛇跑法.mp3",
-  "translate": {
-      "zh-CN": "眼镜蛇跑法"      
-  },
-  "category": "cv pi"
-},
-{
-  "name": "前面的蛆，以后再走吧",
-  "path": "前面的蛆，以后再走吧.mp3",
-  "translate": {
-      "zh-CN": "前面的蛆，以后再走吧"      
-  },
-  "category": "cv pi"
-},
-{
-  "name": "弱智",
-  "path": "弱智.mp3",
-  "translate": {
-      "zh-CN": "弱智"     
-  },
-  "category": "想被pi骂"
-},
-{
-  "name": "给爷爬",
-  "path": "给爷爬.mp3",
-  "translate": {
-      "zh-CN": "给爷爬"      
-  },
-  "category": "想被pi骂"
-},
-{
-  "name": "龙包包：不可以不可以",
-  "path": "lbb不可以不可以.mp3",
-  "translate": {
-      "zh-CN": "龙包包:不可以！"      
-  },
-  "category": "联动"
-},
-{
-  "name": "12有蟑螂",
-  "path": "12有蟑螂.mp3",
-  "translate": {
-      "zh-CN": "12&pi:有蟑螂!（长）"      
-  },
-  "category": "联动"
-},
-{
-  "name": "那我就是邪恶的了",
-  "path": "陆奶：我要成为正义的伙伴 pi：那我就是邪恶的了.mp3",
-  "translate": {
-      "zh-CN": "陆奶：我要成为正义的伙伴 pi：那我就是邪恶的了"      
-  },
-  "category": "联动"
-},
-{
-  "name": "铛奶12：很有精神",
-  "path": "铛奶12：很有精神.mp3",
-  "translate": {
-      "zh-CN": "铛奶12：很有精神"      
-  },
-  "category": "联动"
-},
-{
-  "name": "众人：哈哈哈哈哈哈哈哈哈",
-  "path": "众人：哈哈哈哈哈哈哈哈哈.mp3",
-  "translate": {
-      "zh-CN": "众人：哈哈哈哈哈哈哈哈哈"     
-  },
-  "category": "联动"
-},
-{
-  "name": "pi&烤鱼：怪叫",
-  "path": "pi&烤鱼：怪叫.mp3",
-  "translate": {
-      "zh-CN": "pi&烤鱼：怪叫"     
-  },
-  "category": "联动"
-},
-{
-  "name": "12：我的个人形象啊 pi：你有吗这种东西",
-  "path": "12：我的个人形象啊 pi：你有吗这种东西.mp3",
-  "translate": {
-      "zh-CN": "12：我的个人形象啊 pi：你有吗这种东西"      
-  },
-  "category": "联动"
-},
-{
-  "name": "pi：我害你有什么好处 鱼：害我你开心啊",
-  "path": "pi：我害你有什么好处 鱼：害我你开心啊.mp3",
-  "translate": {
-      "zh-CN": "pi：我害你有什么好处 鱼：害我你开心啊"      
-  },
-  "category": "联动"
-},
-{
-  "name": "zuuuuuu",
-  "path": "zuuuuuu.mp3",
-  "date": "2021-1-10",
-  "translate": {
-    "zh-CN": "zuuuuuu"
-  },
-  "category": "语气"
-},
-{
-  "name": "杠铃般的笑声",
-  "path": "杠铃般的笑声.mp3",
-  "date": "2021-1-10",
-  "translate": {
-    "zh-CN": "杠铃般的笑声"
-  },
-  "category": "语气",
-  "mark": {
-    "title": "2021/1/9直播",
-    "time": "190：00",
-    "url": "https://live.bilibili.com/92613"
-  }
-},
-{
-  "name": "杠铃般的笑声2",
-  "path": "杠铃般的笑声2.mp3",
-  "date": "2021-1-10",
-  "translate": {
-    "zh-CN": "杠铃般的笑声2"
-  },
-  "category": "语气",
-  "mark": {
-    "title": "2021/1/9直播",
-    "time": "265：10",
-    "url": "https://live.bilibili.com/92613"
-  }
-},
-{
-  "name": "哒哒哒哒bang!",
-  "path": "哒哒哒哒...bang!.mp3",
-  "date": "2021-1-10",
-  "translate": {
-    "zh-CN": "哒哒哒哒...bang!"
-  },
-  "category": "名场面",
-  "mark": {
-    "title": "2021/1/9直播",
-    "time": "236：12",
-    "url": "https://live.bilibili.com/92613"
-  }
-},
-{
-  "name": "biu~",
-  "path": "biu~.mp3",
-  "date": "2021-1-10",
-  "translate": {
-    "zh-CN": "biu~"
-  },
-  "category": "语气",
-  "mark": {
-    "title": "2021/1/9直播",
-    "time": "223：21",
-    "url": "https://live.bilibili.com/92613"
-  }
-},
-{
-  "name": "坏人",
-  "path": "坏人.mp3",
-  "date": "2021-1-10",
-  "translate": {
-    "zh-CN": "坏人"
-  },
-  "category": "想被pi骂",
-  "mark": {
-    "title": "pi,mc,卷土重来的黄金城p1~17",
-    "time": "p13 26：15",
-    "url": "https://www.bilibili.com/video/BV1iz4y1y78x?p=13"
-  }
-},
-{
-  "name": "经典的东西不会成为公交车底的口香糖",
-  "path": "经典的东西不会成为公交车底的口香糖.mp3",
-  "date": "2021-1-10",
-  "translate": {
-    "zh-CN": "经典的东西不会成为公交车底的口香糖"
-  },
-  "category": "《1》",
-  "mark": {
-    "title": "pi,mc,卷土重来的黄金城p1~17",
-    "time": "p10 87:55",
-    "url": "https://www.bilibili.com/video/BV1iz4y1y78x?p=10"
-  }
-},
-{
-  "name": "你儿子被我sa啦，你也跑不了！",
-  "path": "你儿子被我sa啦，你也跑不了！.mp3",
-  "date": "2021-1-10",
-  "translate": {
-    "zh-CN": "你儿子被我sa啦，你也跑不了！"
-  },
-  "category": "名场面",
-  "mark": {
-    "title": "2021/1/9直播",
-    "time": "225：00",
-    "url": "https://live.bilibili.com/92613"
-  }
-},
-{
-  "name": "哇呀呀呀呀呀呀",
-  "path": "哇呀呀呀呀呀呀.mp3",
-  "date": "2021-1-10",
-  "translate": {
-    "zh-CN": "哇呀呀呀呀呀呀"
-  },
-  "category": "语气",
-  "mark": {
-    "title": "以撒新人物，第一局就遇到BUG了！",
-    "time": "18:26",
-    "url": "https://www.bilibili.com/video/BV1TW411G7Xr"
-  }
-},
-{
-  "name": "我被缠住了，但是在劫难逃的是你们",
-  "path": "我被缠住了，但是在劫难逃的是你们.mp3",
-  "date": "2021-1-10",
-  "translate": {
-    "zh-CN": "我被缠住了，但是在劫难逃的是你们"
-  },
-  "category": "名场面",
-  "mark": {
-    "title": "Pi,mite,摸黑生存P58~60",
-    "time": "p2 19:26",
-    "url": "https://www.bilibili.com/video/BV1ub411w7Wm?p=2"
-  }
-},
-{
-  "name": "想想api，忘了那个ta",
-  "path": "想想api，忘了那个ta.mp3",
-  "date": "2021-1-10",
-  "translate": {
-    "zh-CN": "想想api，忘了那个ta"
-  },
-  "category": "《1》",
-  "mark": {
-    "title": "【12.29 MC】",
-    "time": "p3 28:02",
-    "url": "https://www.bilibili.com/video/BV1Kh41127mw?p=3"
-  }
-},
-{
-  "name": "我会那么笨吗",
-  "path": "鱼：小心别掉岩浆里了 pi：我会那么笨吗...救命啊！.mp3",
-  "date": "2021-1-10",
-  "translate": {
-    "zh-CN": "鱼、pi：我会那么笨吗...救命啊！"
-  },
-  "category": "联动",
-  "mark": {
-    "title": "《我会这么笨吗》【api切片】",
-    "time": "0",
-    "url": "https://www.bilibili.com/video/BV13A411H7gw"
-  }
-},
-{
-  "name": "pi皇后",
-  "path": "pi皇后.mp3",
-  "date": "2021-6-4",
-  "translate": {
-    "zh-CN": "pi皇后"
-  },
-  "category": "名场面",
-  "mark": {
-    "title": "【1.20 明日方舟 伊拉图斯：死之主·死灵法师之怒 游戏王：决斗链接 MC】",
-    "time": "p18 4:30",
-    "url": "https://www.bilibili.com/video/BV1dh411y7rX?p=18"
-  }
-},
-{
-  "name": "pi嬷嬷",
-  "path": "pi嬷嬷.mp3",
-  "date": "2021-6-4",
-  "translate": {
-    "zh-CN": "pi嬷嬷"
-  },
-  "category": "名场面",
-  "mark": {
-    "title": "【1.20 明日方舟 伊拉图斯：死之主·死灵法师之怒 游戏王：决斗链接 MC】",
-    "time": "p18 4:30",
-    "url": "https://www.bilibili.com/video/BV1dh411y7rX?p=18"
-  }
-},
-{
-  "name": "钉宫三连",
-  "path": "钉宫三连.mp3",
-  "date": "2021-6-4",
-  "translate": {
-    "zh-CN": "钉宫三连"
-  },
-  "category": "cv pi",
-  "mark": {
-    "title": "【1.9 鬼泣5 MC 怪物猎人】",
-    "time": "p9 15:27",
-    "url": "https://www.bilibili.com/video/BV1gT4y1K7EE?p=9"
-  }
-},
-{
-  "name": "哇哦",
-  "path": "哇哦.mp3",
-  "date": "2021-6-4",
-  "translate": {
-    "zh-CN": "哇哦"
-  },
-  "category": "语气",
-  "mark": {
-    "title": "【回乡种地星露谷P1~62】",
-    "time": "p26 30:28",
-    "url": "https://www.bilibili.com/video/BV1ub41167mR?p=26"
-  }
-},
-{
-  "name": "你们的生命就此结束了",
-  "path": "你们的生命就此结束了.mp3",
-  "date": "2021-6-4",
-  "translate": {
-    "zh-CN": "你们的生命就此结束了"
-  },
-  "category": "《1》",
-  "mark": {
-    "title": "【pi,mc,神鸟圣人行商记p2~4】",
-    "time": "p3 44:28",
-    "url": "https://www.bilibili.com/video/BV11b41147X9?p=3"
-  }
-},
-{
-  "name": "素质三连",
-  "path": "素质三连.mp3",
-  "date": "2021-6-4",
-  "translate": {
-    "zh-CN": "素质三连"
-  },
-  "category": "想被pi骂",
-  "mark": {
-    "title": "【[少年Pi直播切片]之儒雅随和API】",
-    "time": "1:45",
-    "url": "https://www.bilibili.com/video/BV1uy4y1W7RP"
-  }
-},
-{
-  "name": "骚气祝福",
-  "path": "骚气祝福.mp3",
-  "date": "2021-6-4",
-  "translate": {
-    "zh-CN": "骚气祝福"
-  },
-  "category": "名场面",
-  "mark": {
-    "title": "【[APi直播切片]魔 音 贯 耳】",
-    "time": "00:48",
-    "url": "https://www.bilibili.com/video/BV1vU4y1s7Qz"
-  }
-},
-{
-  "name": "霸气祝福",
-  "path": "霸气祝福.mp3",
-  "date": "2021-6-4",
-  "translate": {
-    "zh-CN": "霸气祝福"
-  },
-  "category": "名场面",
-  "mark": {
-    "title": "【[APi直播切片]魔 音 贯 耳】",
-    "time": "1:45",
-    "url": "https://www.bilibili.com/video/BV1vU4y1s7Qz"
-  }
-},
-{
-  "name": "你这个小笨蛋",
-  "path": "你这个小笨蛋.mp3",
-  "date": "2021-6-4",
-  "translate": {
-    "zh-CN": "你这个小笨蛋"
-  },
-  "category": "想被pi骂",
-  "mark": {
-    "title": "【[APi直播切片]魔 音 贯 耳】",
-    "time": "1:57",
-    "url": "https://www.bilibili.com/video/BV1vU4y1s7Qz"
-  }
-},
-{
-  "name": "sd",
-  "path": "sd.mp3",
-  "date": "2021-6-4",
-  "translate": {
-    "zh-CN": "sd"
-  },
-  "category": "想被pi骂",
-  "mark": {
-    "title": "【[APi直播切片]魔 音 贯 耳】",
-    "time": "2:10",
-    "url": "https://www.bilibili.com/video/BV1vU4y1s7Qz"
-  }
-}
-
-
-  
-]
+    {
+      "name": "我们被包围了！奶烤鱼！",
+      "path": "我们被包围了！奶....烤鱼！.mp3",
+      "translate": {
+        "zh-CN": "我们被包围了！奶....烤鱼！"
+      },
+      "category": "名场面"
+    },
+    {
+      "name": "反派笑声1",
+      "path": "反派笑声.mp3",
+      "translate": {
+        "zh-CN": "反派笑声1"
+      },
+      "category": "语气"
+    },
+    {
+      "name": "反派笑声2",
+      "path": "反派笑声2.mp3",
+      "translate": {
+        "zh-CN": "反派笑声2"
+      },
+      "category": "语气"
+    },
+    {
+      "name": "woc（颤音）",
+      "path": "woc（颤音）.mp3",
+      "translate": {
+        "zh-CN": "woc（颤音）"
+      },
+      "category": "语气"
+    },
+    {
+      "name": "yeah!",
+      "path": "yeah!.mp3",
+      "translate": {
+        "zh-CN": "yeah!"
+      },
+      "category": "语气"
+    },
+    {
+      "name": "欸？（惊喜）",
+      "path": "欸？（惊喜）.mp3",
+      "translate": {
+        "zh-CN": "欸？（惊喜）"
+      },
+      "category": "语气"
+    },
+    {
+      "name": "不要啊——",
+      "path": "不要啊——.mp3",
+      "translate": {
+        "zh-CN": "不要啊——"
+      },
+      "category": "语气"
+    },
+    {
+      "name": "惊吓",
+      "path": "惊吓.mp3",
+      "translate": {
+        "zh-CN": "惊吓"
+      },
+      "category": "语气"
+    },
+    {
+      "name": "缺德笑",
+      "path": "缺德笑.mp3",
+      "translate": {
+        "zh-CN": "缺德笑"
+      },
+      "category": "语气"
+    },
+    {
+      "name": "五连笑",
+      "path": "五连笑.mp3",
+      "translate": {
+        "zh-CN": "五连笑"
+      },
+      "category": "语气"
+    },
+    {
+      "name": "吃惊",
+      "path": "吃惊.wav",
+      "translate": {
+        "zh-CN": "吃惊"
+      },
+      "category": "语气"
+    },
+    {
+      "name": "诶呦？",
+      "path": "诶呦？.wav",
+      "translate": {
+        "zh-CN": "诶呦？"
+      },
+      "category": "语气"
+    },
+    {
+      "name": "嘿嘿嘿嘿嘿",
+      "path": "嘿嘿嘿嘿嘿.wav",
+      "translate": {
+        "zh-CN": "嘿嘿嘿嘿嘿"
+      },
+      "category": "语气"
+    },
+    {
+      "name": "惊叹",
+      "path": "惊叹.wav",
+      "translate": {
+        "zh-CN": "惊叹"
+      },
+      "category": "语气"
+    },
+    {
+      "name": "狂笑",
+      "path": "狂笑.mp3",
+      "translate": {
+        "zh-CN": "狂笑"
+      },
+      "category": "语气"
+    },
+    {
+      "name": "喔↗!",
+      "path": "喔↗!.wav",
+      "translate": {
+        "zh-CN": "喔↗!"
+      },
+      "category": "语气"
+    },
+    {
+      "name": "我日↗",
+      "path": "我日↗.wav",
+      "translate": {
+        "zh-CN": "我日↗"
+      },
+      "category": "语气"
+    },
+    {
+      "name": "猫叫",
+      "path": "猫叫.mp3",
+      "translate": {
+        "zh-CN": "猫叫"
+      },
+      "category": "语气"
+    },
+    {
+      "name": "打哈欠",
+      "path": "打哈欠.mp3",
+      "translate": {
+        "zh-CN": "打哈欠"
+      },
+      "category": "语气"
+    },
+    {
+      "name": "daze⭐",
+      "path": "daze⭐.mp3",
+      "translate": {
+        "zh-CN": "daze⭐"
+      },
+      "category": "语气"
+    },
+    {
+      "name": "反派笑声3",
+      "path": "反派笑声3.mp3",
+      "translate": {
+        "zh-CN": "反派笑声3"
+      },
+      "category": "语气"
+    },
+    {
+      "name": "傻笑",
+      "path": "傻笑.mp3",
+      "translate": {
+        "zh-CN": "傻笑"
+      },
+      "category": "语气"
+    },
+    {
+      "name": "このやろう(野郎)",
+      "path": "このやろう(野郎).mp3",
+      "translate": {
+        "zh-CN": "このやろう(野郎)"
+      },
+      "category": "语气"
+    },
+    {
+      "name": "格林爆裂",
+      "path": "格林爆裂.mp3",
+      "translate": {
+        "zh-CN": "格林爆裂"
+      },
+      "category": "cv pi"
+    },
+    {
+      "name": "太虚苍蓝闪",
+      "path": "太虚苍蓝闪.mp3",
+      "translate": {
+        "zh-CN": "太虚苍蓝闪"
+      },
+      "category": "cv pi"
+    },
+    {
+      "name": "Api应援",
+      "path": "干巴得.mp3",
+      "translate": {
+        "zh-CN": "Api应援"
+      },
+      "category": "cv pi"
+    },
+    {
+      "name": "闪耀之刃",
+      "path": "闪耀之刃.mp3",
+      "translate": {
+        "zh-CN": "闪耀之刃"
+      },
+      "category": "cv pi"
+    },
+    {
+      "name": "阿库耐次",
+      "path": "阿库耐次.mp3",
+      "translate": {
+        "zh-CN": "阿库耐次"
+      },
+      "category": "cv pi"
+    },
+    {
+      "name": "阿库奈次2",
+      "path": "阿库奈次2.mp3",
+      "translate": {
+        "zh-CN": "阿库奈次2"
+      },
+      "category": "cv pi"
+    },
+    {
+      "name": "你的好友API已上线",
+      "path": "你的好友API已上线.mp3",
+      "translate": {
+        "zh-CN": "你的好友API已上线"
+      },
+      "category": "cv pi"
+    },
+    {
+      "name": "朱色之噬 吾可是不死之身",
+      "path": "朱色之噬 吾可是不死之身.mp3",
+      "translate": {
+        "zh-CN": "朱色之噬 吾可是不死之身"
+      },
+      "category": "cv pi"
+    },
+    {
+      "name": "疾风剑雨",
+      "path": "疾风剑雨.mp3",
+      "translate": {
+        "zh-CN": "疾风剑雨"
+      },
+      "category": "cv pi"
+    },
+    {
+      "name": "附魔箭矢",
+      "path": "附魔箭矢.mp3",
+      "translate": {
+        "zh-CN": "附魔箭矢"
+      },
+      "category": "cv pi"
+    },
+    {
+      "name": "bang!哈哈哈哈哈哈",
+      "path": "bang!哈哈哈哈哈哈.mp3",
+      "translate": {
+        "zh-CN": "bang!哈哈哈哈哈哈"
+      },
+      "category": "cv pi"
+    },
+    {
+      "name": "ex咖喱棒",
+      "path": "ex咖喱棒.mp3",
+      "translate": {
+        "zh-CN": "ex咖喱棒"
+      },
+      "category": "cv pi"
+    },
+    {
+      "name": "穿刺死棘之枪",
+      "path": "穿刺死棘之枪.mp3",
+      "translate": {
+        "zh-CN": "穿刺死棘之枪"
+      },
+      "category": "cv pi"
+    },
+    {
+      "name": "雕虫小技竟敢班门弄斧",
+      "path": "雕虫小技竟敢班门弄斧.mp3",
+      "translate": {
+        "zh-CN": "雕虫小技竟敢班门弄斧"
+      },
+      "category": "cv pi"
+    },
+    {
+      "name": "哭吧，叫吧，喊吧，然后去死吧",
+      "path": "哭吧，叫吧，喊吧，然后去死吧.mp3",
+      "translate": {
+        "zh-CN": "哭吧，叫吧，喊吧，然后去死吧"
+      },
+      "category": "cv pi"
+    },
+    {
+      "name": "梦想天生",
+      "path": "梦想天生.mp3",
+      "translate": {
+        "zh-CN": "梦想天生"
+      },
+      "category": "cv pi"
+    },
+    {
+      "name": "眼镜蛇跑法",
+      "path": "眼镜蛇跑法.mp3",
+      "translate": {
+        "zh-CN": "眼镜蛇跑法"
+      },
+      "category": "cv pi"
+    },
+    {
+      "name": "前面的蛆，以后再走吧",
+      "path": "前面的蛆，以后再走吧.mp3",
+      "translate": {
+        "zh-CN": "前面的蛆，以后再走吧"
+      },
+      "category": "cv pi"
+    },
+    {
+      "name": "弱智",
+      "path": "弱智.mp3",
+      "translate": {
+        "zh-CN": "弱智"
+      },
+      "category": "想被pi骂"
+    },
+    {
+      "name": "给爷爬",
+      "path": "给爷爬.mp3",
+      "translate": {
+        "zh-CN": "给爷爬"
+      },
+      "category": "想被pi骂"
+    },
+    {
+      "name": "龙包包：不可以不可以",
+      "path": "lbb不可以不可以.mp3",
+      "translate": {
+        "zh-CN": "龙包包:不可以！"
+      },
+      "category": "联动"
+    },
+    {
+      "name": "12有蟑螂",
+      "path": "12有蟑螂.mp3",
+      "translate": {
+        "zh-CN": "12&pi:有蟑螂!（长）"
+      },
+      "category": "联动"
+    },
+    {
+      "name": "那我就是邪恶的了",
+      "path": "陆奶：我要成为正义的伙伴 pi：那我就是邪恶的了.mp3",
+      "translate": {
+        "zh-CN": "陆奶：我要成为正义的伙伴 pi：那我就是邪恶的了"
+      },
+      "category": "联动"
+    },
+    {
+      "name": "铛奶12：很有精神",
+      "path": "铛奶12：很有精神.mp3",
+      "translate": {
+        "zh-CN": "铛奶12：很有精神"
+      },
+      "category": "联动"
+    },
+    {
+      "name": "众人：哈哈哈哈哈哈哈哈哈",
+      "path": "众人：哈哈哈哈哈哈哈哈哈.mp3",
+      "translate": {
+        "zh-CN": "众人：哈哈哈哈哈哈哈哈哈"
+      },
+      "category": "联动"
+    },
+    {
+      "name": "pi&烤鱼：怪叫",
+      "path": "pi&烤鱼：怪叫.mp3",
+      "translate": {
+        "zh-CN": "pi&烤鱼：怪叫"
+      },
+      "category": "联动"
+    },
+    {
+      "name": "12：我的个人形象啊 pi：你有吗这种东西",
+      "path": "12：我的个人形象啊 pi：你有吗这种东西.mp3",
+      "translate": {
+        "zh-CN": "12：我的个人形象啊 pi：你有吗这种东西"
+      },
+      "category": "联动"
+    },
+    {
+      "name": "pi：我害你有什么好处 鱼：害我你开心啊",
+      "path": "pi：我害你有什么好处 鱼：害我你开心啊.mp3",
+      "translate": {
+        "zh-CN": "pi：我害你有什么好处 鱼：害我你开心啊"
+      },
+      "category": "联动"
+    },
+    {
+      "name": "zuuuuuu",
+      "path": "zuuuuuu.mp3",
+      "date": "2021-1-10",
+      "translate": {
+        "zh-CN": "zuuuuuu"
+      },
+      "category": "语气"
+    },
+    {
+      "name": "杠铃般的笑声",
+      "path": "杠铃般的笑声.mp3",
+      "date": "2021-1-10",
+      "translate": {
+        "zh-CN": "杠铃般的笑声"
+      },
+      "category": "语气",
+      "mark": {
+        "title": "2021/1/9直播",
+        "time": "190：00",
+        "url": "https://live.bilibili.com/92613"
+      }
+    },
+    {
+      "name": "杠铃般的笑声2",
+      "path": "杠铃般的笑声2.mp3",
+      "date": "2021-1-10",
+      "translate": {
+        "zh-CN": "杠铃般的笑声2"
+      },
+      "category": "语气",
+      "mark": {
+        "title": "2021/1/9直播",
+        "time": "265：10",
+        "url": "https://live.bilibili.com/92613"
+      }
+    },
+    {
+      "name": "哒哒哒哒bang!",
+      "path": "哒哒哒哒...bang!.mp3",
+      "date": "2021-1-10",
+      "translate": {
+        "zh-CN": "哒哒哒哒...bang!"
+      },
+      "category": "名场面",
+      "mark": {
+        "title": "2021/1/9直播",
+        "time": "236：12",
+        "url": "https://live.bilibili.com/92613"
+      }
+    },
+    {
+      "name": "biu~",
+      "path": "biu~.mp3",
+      "date": "2021-1-10",
+      "translate": {
+        "zh-CN": "biu~"
+      },
+      "category": "语气",
+      "mark": {
+        "title": "2021/1/9直播",
+        "time": "223：21",
+        "url": "https://live.bilibili.com/92613"
+      }
+    },
+    {
+      "name": "坏人",
+      "path": "坏人.mp3",
+      "date": "2021-1-10",
+      "translate": {
+        "zh-CN": "坏人"
+      },
+      "category": "想被pi骂",
+      "mark": {
+        "title": "pi,mc,卷土重来的黄金城p1~17",
+        "time": "p13 26：15",
+        "url": "https://www.bilibili.com/video/BV1iz4y1y78x?p=13"
+      }
+    },
+    {
+      "name": "经典的东西不会成为公交车底的口香糖",
+      "path": "经典的东西不会成为公交车底的口香糖.mp3",
+      "date": "2021-1-10",
+      "translate": {
+        "zh-CN": "经典的东西不会成为公交车底的口香糖"
+      },
+      "category": "《1》",
+      "mark": {
+        "title": "pi,mc,卷土重来的黄金城p1~17",
+        "time": "p10 87:55",
+        "url": "https://www.bilibili.com/video/BV1iz4y1y78x?p=10"
+      }
+    },
+    {
+      "name": "你儿子被我sa啦，你也跑不了！",
+      "path": "你儿子被我sa啦，你也跑不了！.mp3",
+      "date": "2021-1-10",
+      "translate": {
+        "zh-CN": "你儿子被我sa啦，你也跑不了！"
+      },
+      "category": "名场面",
+      "mark": {
+        "title": "2021/1/9直播",
+        "time": "225：00",
+        "url": "https://live.bilibili.com/92613"
+      }
+    },
+    {
+      "name": "哇呀呀呀呀呀呀",
+      "path": "哇呀呀呀呀呀呀.mp3",
+      "date": "2021-1-10",
+      "translate": {
+        "zh-CN": "哇呀呀呀呀呀呀"
+      },
+      "category": "语气",
+      "mark": {
+        "title": "以撒新人物，第一局就遇到BUG了！",
+        "time": "18:26",
+        "url": "https://www.bilibili.com/video/BV1TW411G7Xr"
+      }
+    },
+    {
+      "name": "我被缠住了，但是在劫难逃的是你们",
+      "path": "我被缠住了，但是在劫难逃的是你们.mp3",
+      "date": "2021-1-10",
+      "translate": {
+        "zh-CN": "我被缠住了，但是在劫难逃的是你们"
+      },
+      "category": "名场面",
+      "mark": {
+        "title": "Pi,mite,摸黑生存P58~60",
+        "time": "p2 19:26",
+        "url": "https://www.bilibili.com/video/BV1ub411w7Wm?p=2"
+      }
+    },
+    {
+      "name": "想想api，忘了那个ta",
+      "path": "想想api，忘了那个ta.mp3",
+      "date": "2021-1-10",
+      "translate": {
+        "zh-CN": "想想api，忘了那个ta"
+      },
+      "category": "《1》",
+      "mark": {
+        "title": "【12.29 MC】",
+        "time": "p3 28:02",
+        "url": "https://www.bilibili.com/video/BV1Kh41127mw?p=3"
+      }
+    },
+    {
+      "name": "我会那么笨吗",
+      "path": "鱼：小心别掉岩浆里了 pi：我会那么笨吗...救命啊！.mp3",
+      "date": "2021-1-10",
+      "translate": {
+        "zh-CN": "鱼、pi：我会那么笨吗...救命啊！"
+      },
+      "category": "联动",
+      "mark": {
+        "title": "《我会这么笨吗》【api切片】",
+        "time": "0",
+        "url": "https://www.bilibili.com/video/BV13A411H7gw"
+      }
+    },
+    {
+      "name": "pi皇后",
+      "path": "pi皇后.mp3",
+      "date": "2021-6-4",
+      "translate": {
+        "zh-CN": "pi皇后"
+      },
+      "category": "名场面",
+      "mark": {
+        "title": "【1.20 明日方舟 伊拉图斯：死之主·死灵法师之怒 游戏王：决斗链接 MC】",
+        "time": "p18 4:30",
+        "url": "https://www.bilibili.com/video/BV1dh411y7rX?p=18"
+      }
+    },
+    {
+      "name": "pi嬷嬷",
+      "path": "pi嬷嬷.mp3",
+      "date": "2021-6-4",
+      "translate": {
+        "zh-CN": "pi嬷嬷"
+      },
+      "category": "名场面",
+      "mark": {
+        "title": "【1.20 明日方舟 伊拉图斯：死之主·死灵法师之怒 游戏王：决斗链接 MC】",
+        "time": "p18 4:30",
+        "url": "https://www.bilibili.com/video/BV1dh411y7rX?p=18"
+      }
+    },
+    {
+      "name": "钉宫三连",
+      "path": "钉宫三连.mp3",
+      "date": "2021-6-4",
+      "translate": {
+        "zh-CN": "钉宫三连"
+      },
+      "category": "cv pi",
+      "mark": {
+        "title": "【1.9 鬼泣5 MC 怪物猎人】",
+        "time": "p9 15:27",
+        "url": "https://www.bilibili.com/video/BV1gT4y1K7EE?p=9"
+      }
+    },
+    {
+      "name": "哇哦",
+      "path": "哇哦.mp3",
+      "date": "2021-6-4",
+      "translate": {
+        "zh-CN": "哇哦"
+      },
+      "category": "语气",
+      "mark": {
+        "title": "【回乡种地星露谷P1~62】",
+        "time": "p26 30:28",
+        "url": "https://www.bilibili.com/video/BV1ub41167mR?p=26"
+      }
+    },
+    {
+      "name": "你们的生命就此结束了",
+      "path": "你们的生命就此结束了.mp3",
+      "date": "2021-6-4",
+      "translate": {
+        "zh-CN": "你们的生命就此结束了"
+      },
+      "category": "《1》",
+      "mark": {
+        "title": "【pi,mc,神鸟圣人行商记p2~4】",
+        "time": "p3 44:28",
+        "url": "https://www.bilibili.com/video/BV11b41147X9?p=3"
+      }
+    },
+    {
+      "name": "素质三连",
+      "path": "素质三连.mp3",
+      "date": "2021-6-4",
+      "translate": {
+        "zh-CN": "素质三连"
+      },
+      "category": "想被pi骂",
+      "mark": {
+        "title": "【[少年Pi直播切片]之儒雅随和API】",
+        "time": "1:45",
+        "url": "https://www.bilibili.com/video/BV1uy4y1W7RP"
+      }
+    },
+    {
+      "name": "骚气祝福",
+      "path": "骚气祝福.mp3",
+      "date": "2021-6-4",
+      "translate": {
+        "zh-CN": "骚气祝福"
+      },
+      "category": "名场面",
+      "mark": {
+        "title": "【[APi直播切片]魔 音 贯 耳】",
+        "time": "00:48",
+        "url": "https://www.bilibili.com/video/BV1vU4y1s7Qz"
+      }
+    },
+    {
+      "name": "霸气祝福",
+      "path": "霸气祝福.mp3",
+      "date": "2021-6-4",
+      "translate": {
+        "zh-CN": "霸气祝福"
+      },
+      "category": "名场面",
+      "mark": {
+        "title": "【[APi直播切片]魔 音 贯 耳】",
+        "time": "1:45",
+        "url": "https://www.bilibili.com/video/BV1vU4y1s7Qz"
+      }
+    },
+    {
+      "name": "你这个小笨蛋",
+      "path": "你这个小笨蛋.mp3",
+      "date": "2021-6-4",
+      "translate": {
+        "zh-CN": "你这个小笨蛋"
+      },
+      "category": "想被pi骂",
+      "mark": {
+        "title": "【[APi直播切片]魔 音 贯 耳】",
+        "time": "1:57",
+        "url": "https://www.bilibili.com/video/BV1vU4y1s7Qz"
+      }
+    },
+    {
+      "name": "sd",
+      "path": "sd.mp3",
+      "date": "2021-6-4",
+      "translate": {
+        "zh-CN": "sd"
+      },
+      "category": "想被pi骂",
+      "mark": {
+        "title": "【[APi直播切片]魔 音 贯 耳】",
+        "time": "2:10",
+        "url": "https://www.bilibili.com/video/BV1vU4y1s7Qz"
+      }
+    },
+    {
+      "name": "cp-test",
+      "path": "祝你玩的开心.mp3",
+      "date": "2023-10-26",
+      "translate": {
+        "zh-CN": "偷偷磕"
+      },
+      "category": "偷偷磕"
+    }
+  ]
 }

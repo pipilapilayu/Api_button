@@ -1,6 +1,27 @@
 <template>
   <template v-for="item in voices" :key="item.name">
-    <Card v-if="isShowCategory(item.name)">
+    <Card v-if="isShowCategory(item.name) && item.name !== '偷偷磕'">
+      <template #header>
+        <div class="category">{{ t(`voicecategory.${item.name}`) }}</div>
+      </template>
+      <div class="content">
+        <template v-for="voice in item.voiceList" :key="voice.name">
+          <VBtn
+            v-if="isShowVoice(voice.name)"
+            :text="t(`voice.${voice.name}`)"
+            :name="voice.name"
+            :newIcon="voice.date === lastDate"
+            :showPic="getPicUrl(voice.usePicture)"
+            :lowlight="isLowlight(voice)"
+            :highlight="highlight === voice.name"
+            :disable="playSetting.showInfo && !voice.mark"
+            :ref="(el) => setBtnList(voice.name, el)"
+            @click="playSetting.showInfo ? showInfo(voice.mark) : play(voice)"
+          />
+        </template>
+      </div>
+    </Card>
+    <Card v-if="item.name === '偷偷磕' && cpBtn">
       <template #header>
         <div class="category">{{ t(`voicecategory.${item.name}`) }}</div>
       </template>
@@ -40,6 +61,7 @@ export default {
   },
   setup() {
     const { t, te, locale } = useI18n()
+    const cpBtn = ref(window.sessionStorage.getItem('CPBTN') === '1')
 
     const playSetting: PlaySetting = inject('playSetting') as PlaySetting
 
@@ -155,7 +177,7 @@ export default {
      */
     const addPlayer = (voice: VoicesItem, key: any) => {
       reset()
-      const path = process.env.NODE_ENV === 'production' ? `https://jsd.onmicrosoft.cn/gh/pipilapilayu/Api_button@main/public/voices/${voice.path}` : `voices/${voice.path}`
+      const path = process.env.NODE_ENV === 'production' ? `https://jsd.onmicrosoft.cn/gh/pipilapilayu/xrb_button@main/public/voices/${voice.path}` : `voices/${voice.path}`
       playerList.set(key, {
         name: voice.name,
         audio: new Audio(path)
@@ -347,6 +369,7 @@ export default {
       highlight,
       voices,
       lastDate,
+      cpBtn,
       play,
       showInfo,
       isShowCategory,
