@@ -11,9 +11,9 @@ module.exports = {
   pwa: {
     themeColor: '#c4afd0',
     manifestOptions: {
-      name: 'NANA BUTTON',
+      name: 'Api BUTTON',
       // eslint-disable-next-line @typescript-eslint/camelcase
-      short_name: 'NANA BUTTON',
+      short_name: 'Api BUTTON',
       icons: [
         {
           src: '/img/icon.png',
