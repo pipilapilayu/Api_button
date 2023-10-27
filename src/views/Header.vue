@@ -49,6 +49,7 @@ import { INFO_I18N, IsShowSearch, SearchData } from '@/assets/script/option'
 import IBtn from '@/components/common/IconBtn.vue'
 import Search from '@/components/Search.vue'
 import Setting from '@/setting/setting.json'
+import { ElMessageBox, Action } from 'element-plus'
 
 export default {
   components: {
@@ -131,18 +132,45 @@ export default {
 
     const { t, locale } = useI18n()
 
+    const clicknNum = ref(0)
     const changeLang = () => {
-      searchData.value = ''
-      searchData.list.length = 0
-      if (locale.value === 'ja-JP') {
-        locale.value = 'zh-CN'
-        localStorage.setItem('lang', 'zh-CN')
+      if (clicknNum.value === 3) {
+        ElMessageBox.alert('好像发现了新按钮？', '哦？', {
+          // if you want to disable its autofocus
+          // autofocus: false,
+          confirmButtonText: '去找找？',
+          callback: (action: Action) => {
+            window.sessionStorage.setItem('CPBTN', '1')
+            location.reload()
+          }
+        })
       } else {
-        window.open(
-          'http://www.xxapi.ys168.com/', 'newwindow', 'height=400, width=640, top=0,left=0, toolbar=no, menubar=no, scrollbars=no, resizable=no,location=no,status=no'
-        )
+        clicknNum.value += 1
       }
+      // searchData.value = ''
+      // searchData.list.length = 0
+      // if (locale.value === 'ja-JP') {
+      //   locale.value = 'zh-CN'
+      //   localStorage.setItem('lang', 'zh-CN')
+      // } else {
+      //   // window.open(
+      //   //   //  以下为投稿按钮（右上角）跳转链接，暂未接入
+      //   //   //  'http://www.xxapi.ys168.com/', 'newwindow', 'height=400, width=640, top=0,left=0, toolbar=no, menubar=no, scrollbars=no, resizable=no,location=no,status=no'
+      //   // )
+      // }
     }
+    // const changeLang = () => {
+    //   searchData.value = ''
+    //   searchData.list.length = 0
+    //   if (locale.value === 'ja-JP') {
+    //     locale.value = 'zh-CN'
+    //     localStorage.setItem('lang', 'zh-CN')
+    //   } else {
+    //     window.open(
+    //       'http://www.xxapi.ys168.com/', 'newwindow', 'height=400, width=640, top=0,left=0, toolbar=no, menubar=no, scrollbars=no, resizable=no,location=no,status=no'
+    //     )
+    //   }
+    // }
 
     watch(route, () => {
       if (route.path.startsWith('/memes')) {
