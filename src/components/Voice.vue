@@ -137,14 +137,11 @@ export default {
     const play = (voice: VoicesItem) => {
       // GA的事件上报
       if (process.env.NODE_ENV === 'production') {
-        /* eslint-disable no-undef -- eslint does not understand declare global */
-        /* eslint-disable @typescript-eslint/camelcase */
         gtag('event', voice.name, {
           event_category: voice.name,
           event_label: voice.category,
           value: 1
         })
-        /* eslint-enable */
       }
       if (!playSetting.overlap) {
         if (playerList.has('once')) (playerList.get('once') as Player).audio.pause()
@@ -196,7 +193,6 @@ export default {
       }
       playerList.get(key)!.audio.oncanplay = () => {
         playSetting.loading = false
-        // eslint-disable-next-line no-labels
         voices:
         for (const i in voices) {
           for (const j in voices[i].voiceList) {
@@ -230,7 +226,6 @@ export default {
                   randomPlay()
                 }
               }
-              // eslint-disable-next-line no-labels
               break voices
             }
           }
