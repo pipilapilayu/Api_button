@@ -10,15 +10,13 @@ import Locales from '@/setting/translate/locales.json'
 import './assets/style/transition.styl'
 import './registerServiceWorker'
 
-import { gtag } from './assets/script/gtag.js'
 import Setting from './setting/setting.json'
 import ElementPlus from 'element-plus'
 import 'element-plus/dist/index.css'
-if (process.env.NODE_ENV === 'production' && (Setting as any).GA_ID) {
-  window.dataLayer = window.dataLayer || []
-  gtag('js', new Date())
-  gtag('config', (Setting as any).GA_ID)
-}
+
+// gtag is imported from cdn and initialized in html
+/* eslint-disable no-var -- eslint does not understand declare global */
+declare global { var gtag: (kind: 'event', eventName: string, payload: any) => void }
 
 const CN: any = { ...Locales['zh-CN'], voice: {}, voicecategory: {} }
 const JP: any = { ...Locales['ja-JP'], voice: {}, voicecategory: {} }
