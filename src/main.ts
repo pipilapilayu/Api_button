@@ -13,7 +13,6 @@ import Locales from '@/setting/translate/locales.json'
 import Setting from './setting/setting.json'
 
 // gtag is imported from cdn and initialized in html
-/* eslint-disable no-var -- eslint does not understand declare global */
 declare global { var gtag: (kind: 'event', eventName: string, payload: any) => void }
 
 const CN: any = { ...Locales['zh-CN'], voice: {}, voicecategory: {} }

@@ -1,5 +1,3 @@
-/* eslint-disable @typescript-eslint/no-var-requires */
-/* eslint-disable @typescript-eslint/camelcase */
 const path = require('path')
 const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPlugin
 const SimpleProgressWebpackPlugin = require('simple-progress-webpack-plugin')
@@ -9,7 +7,6 @@ module.exports = {
     themeColor: '#c4afd0',
     manifestOptions: {
       name: 'Api BUTTON',
-      // eslint-disable-next-line @typescript-eslint/camelcase
       short_name: 'Api BUTTON',
       icons: [
         {
