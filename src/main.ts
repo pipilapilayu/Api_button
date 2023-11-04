@@ -6,7 +6,7 @@ import router from './router'
 import './registerServiceWorker'
 
 import 'element-plus/dist/index.css'
-import './assets/style/transition.styl'
+import './styles/transition.styl'
 
 import VoiceList from '@/setting/translate/voices.json'
 import Locales from '@/setting/translate/locales.json'

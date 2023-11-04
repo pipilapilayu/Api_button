@@ -60,7 +60,7 @@ module.exports = {
   css: {
     loaderOptions: {
       stylus: {
-        import: [path.join(__dirname, './src/setting/color.styl')]
+        import: [path.join(__dirname, './src/styles/color.styl')]
       }
     }
   },
