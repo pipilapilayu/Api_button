@@ -1,6 +1,8 @@
 
 .snow {
   position: absolute;
+  left: 0px;
+  top: 0px;
   width: 10px;
   height: 10px;
   background: white;

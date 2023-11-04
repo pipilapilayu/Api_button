@@ -47,7 +47,6 @@
 <script lang="ts">
 import { ref, inject, watch, Ref, ComponentPublicInstance, reactive } from 'vue'
 import { useI18n } from 'vue-i18n'
-import { gtag } from '@/assets/script/gtag'
 import { EVENT, INFO_I18N, Mark, Player, PlayerList, PlaySetting, SearchData, Translate, Voices, VoicesItem } from '@/assets/script/option'
 import mitt from '@/assets/script/mitt'
 import Setting from '@/setting/setting.json'
@@ -138,6 +137,7 @@ export default {
     const play = (voice: VoicesItem) => {
       // GA的事件上报
       if (process.env.NODE_ENV === 'production') {
+        /* eslint-disable no-undef -- eslint does not understand declare global */
         /* eslint-disable @typescript-eslint/camelcase */
         gtag('event', voice.name, {
           event_category: voice.name,
