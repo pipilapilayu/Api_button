@@ -1,18 +1,16 @@
-import { createApp } from 'vue'
+import { App as AppType, createApp } from 'vue'
+import { createI18n } from 'vue-i18n'
+import ElementPlus from 'element-plus'
 import App from './App.vue'
 import router from './router'
-import lazyload from '@/assets/script/lazyload.js'
-
-import { createI18n } from 'vue-i18n'
-import VoiceList from '@/setting/translate/voices.json'
-import Locales from '@/setting/translate/locales.json'
-
-import './assets/style/transition.styl'
 import './registerServiceWorker'
 
-import Setting from './setting/setting.json'
-import ElementPlus from 'element-plus'
 import 'element-plus/dist/index.css'
+import './assets/style/transition.styl'
+
+import VoiceList from '@/setting/translate/voices.json'
+import Locales from '@/setting/translate/locales.json'
+import Setting from './setting/setting.json'
 
 // gtag is imported from cdn and initialized in html
 /* eslint-disable no-var -- eslint does not understand declare global */
@@ -69,4 +67,25 @@ const i18n = createI18n({
     'ja-JP': JP
   }
 })
+
+// 延迟加载语音
+const lazyload = {
+  install: (app: AppType) => {
+    app.directive('lazy', {
+      mounted(el, binding) {
+        const io = new IntersectionObserver(entries => {
+          entries.forEach(entry => {
+            const lazyImage = entry.target as HTMLImageElement
+            if (entry.intersectionRatio > 0) {
+              lazyImage.src = binding.value
+              io.unobserve(lazyImage)
+            }
+          })
+        })
+        io.observe(el)
+      }
+    })
+  }
+}
+
 createApp(App).use(router).use(i18n).use(lazyload).use(ElementPlus).mount('#app')
