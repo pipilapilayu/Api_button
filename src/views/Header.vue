@@ -64,12 +64,8 @@ export default {
     if ((Setting as any).header) {
       btnList = [
         {
-          url: (Setting as any).header.youtube || false,
+          url: (Setting as any).header.weibo || false,
           img: require('../assets/image/weibo.png')
-        },
-        {
-          url: (Setting as any).header.twitter || false,
-          img: require('../assets/image/twitter-fill.png')
         },
         {
           url: (Setting as any).header.bilibili || false,
