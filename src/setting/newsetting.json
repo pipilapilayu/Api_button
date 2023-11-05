@@ -1,0 +1,79 @@
+{
+  "locales": [
+    "zh-CN"
+  ],
+  "zh-CN": {
+    "name": {
+      "title": "Api按钮",
+      "memes": "Api表情",
+      "fullName": "少年Pi"
+    },
+    "header": {
+      "icon": "🍍",
+      "weibo": "https://weibo.com/apiww",
+      "bilibili": "https://space.bilibili.com/13046"
+    },
+    "count": "当前语音量",
+    "friendlyLinks": [{
+        "name": "加入我们",
+        "url": "https://jq.qq.com/?_wv=1027&k=NkSw46pM",
+        "background": "rgb(100, 181, 246)"
+      }, {
+        "name": "github投稿入口",
+        "url": "https://github.com/pipilapilayu/Api_button/issues/new?assignees=&labels=&template=----.md&title=%5B%E6%8A%95%E7%A8%BF%5D",
+        "background": "rgb(0, 0, 0)"
+      }, {
+        "name": "腾讯表单投稿入口",
+        "url": "https://docs.qq.com/form/page/DT2hyc3lyWFNHaGpa",
+        "background": "rgb(30,111,255)"
+      }, {
+        "name": "邮件投稿入口",
+        "url": "mailto:dys@xxapi.icu",
+        "background": "rgb(1,0,40)"
+      }, {
+        "name": "小肉包按钮",
+        "url": "https://www.xrb.icu",
+        "background": "rgb(255,217,6)"
+      }
+    ],
+    "action": {
+      "randomplay": "帮我选一个",
+      "stopvoice": "停止",
+      "overlap": "允许声音重叠",
+      "overlapTip": "重叠播放开启中~",
+      "autoRandom": "不要停下来啊——",
+      "autoRandomTip": "随机连播开启中~",
+      "loop": "洗脑循环",
+      "loopTip": "洗脑循环开启中~",
+      "noplay": "当前没有播放哦~"
+    },
+    "footer": {
+      "author": [
+        {
+          "name": "Blacktunes",
+          "url": "https://github.com/blacktunes"
+        },
+        {
+          "name": "DYS"
+        }
+      ],
+      "github": "https://github.com/pipilapilayu/Api_button",
+      "left-other": [
+        "对于本网站有什么建议欢迎加入反馈群:<a href=\"https://jq.qq.com/?_wv=1027&k=DxgZ3kwk\">483278049</a>",
+        "语音素材持续募集中！     背景图PID=71517168 绘：塔"
+      ],
+      "right-other": [
+        "本站为爱好者作品，与up主没有关联"
+      ]
+    },
+    "console": {
+      "text": "❤Api❤",
+      "size": "20px",
+      "color": "pink",
+      "img": "Api.jpg",
+      "imgWidth": "10%",
+      "imgHeight": "10%"
+    }
+  },
+  "mediaSession": "api.jpg"
+}

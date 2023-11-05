@@ -46,7 +46,7 @@ import Setting from '@/setting/setting.json'
 import VHeader from '@/views/Header.vue'
 import Control from '@/views/Control.vue'
 import VFooter from '@/views/Footer.vue'
-import VoiceList from '@/setting/translate/voices.json'
+import VoiceList from '@/setting/voices.json'
 import router from './router'
 
 export default {

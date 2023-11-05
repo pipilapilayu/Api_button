@@ -8,8 +8,8 @@ import './registerServiceWorker'
 import 'element-plus/dist/index.css'
 import './styles/transition.styl'
 
-import VoiceList from '@/setting/translate/voices.json'
-import Locales from '@/setting/translate/locales.json'
+import VoiceList from '@/setting/voices.json'
+import Locales from '@/setting/locales.json'
 import Setting from './setting/setting.json'
 
 // gtag is imported from cdn and initialized in html
