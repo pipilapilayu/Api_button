@@ -174,7 +174,7 @@ export default {
      */
     const addPlayer = (voice: VoicesItem, key: any) => {
       reset()
-      const path = process.env.NODE_ENV === 'production' ? `https://jsd.onmicrosoft.cn/gh/pipilapilayu/api_button@main/public/voices/${voice.path}` : `voices/${voice.path}`
+      const path = process.env.NODE_ENV === 'production' ? `https://cdn.jsdelivr.net/gh/pipilapilayu/api_button@main/public/voices/${voice.path}` : `voices/${voice.path}`
       playerList.set(key, {
         name: voice.name,
         audio: new Audio(path)
